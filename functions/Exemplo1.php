@@ -10,9 +10,12 @@
 </head>
 
 <body>
+  <?php require'../return.php'; ?>
+
   <form method="post">
-    <h5>Exemplo de Função</h5>
+    <h5>Exemplo de Função</h5><br>
     <hr class="dividir" />
+    <br>
     <h5>
       <?php
         header('Content-Type: text/html; charset=UTF-8');

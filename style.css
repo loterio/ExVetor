@@ -34,13 +34,11 @@ header {
     transition: 0.32s;
 }
 .plx small:hover {
-
     box-shadow: 2px 2.4px;
 }
 
 section {
-    height: 60vh;
-    /* background: blue; */
+    height: 75vh;
 }
 h1.title {
     font-size: 6.6vh;
@@ -68,21 +66,22 @@ a:hover {
 .container {
     padding: 8vh 20vh 0 20vh;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 80px;
     box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}

@@ -14,7 +14,8 @@
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
 </head>
 
-<body>
+<body>[
+  <?php require'../return.php'; ?>]
   <form method="post">
     <h5>Retorno de Soma com Include</h5>
     <hr class="dividir" />

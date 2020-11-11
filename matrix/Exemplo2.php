@@ -18,6 +18,7 @@
 </head>
 
 <body>
+<?php require'../return.php'; ?>
   <form method="post">
     <h5>Matriz 3 x 3</h5>
     <hr class="dividir" />

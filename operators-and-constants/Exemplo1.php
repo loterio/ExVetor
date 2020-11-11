@@ -6,11 +6,15 @@
   <title>Exemplo 1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/basico.css" />
+  <link rel="stylesheet" href="../style.css" />
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
 </head>
-
 <body>
+<a href="../" class="return">
+    <img src="../return.svg" alt="return arrow" width="70">
+</a>
   <form>
+
     <h5>Exemplos de Operadores</h5>
     <h5>Verificação</h5>
     <hr class="dividir" />

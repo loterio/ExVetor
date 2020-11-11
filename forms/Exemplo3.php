@@ -10,20 +10,24 @@
 <head>
     <link rel="stylesheet" href="Assets/style.css"/>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="Assets/php.png" />
     <title><?php echo $titulo; ?></title>
 </head>
 <body>
 <div>
   <form action="" method="post">
+    <a href="../" class="return">
+        <img src="../return.svg" alt="return arrow" width="70">
+    </a>
     <fieldset>
-      <legend>Exemplo 2</legend>
+      <legend>Exemplo 3</legend>
+      <p>é igual ao ex 2 porém usando GET</p>
       <br />
       <label for="metros">Metros: </label>
       <input type="text" name="metros" id="metros" value="<?php echo $metros; ?>"/>
-      <br />
       <input type="submit" value="Enviar Dados" />
-      <br />
+      <br /><br />
     </fieldset>
   </form>
   <?php

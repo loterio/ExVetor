@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <?php require'../return.php'; ?>
   <form method="post">
     <h5>Exemplo de Saída de Texto</h5>
     <hr class="dividir" />

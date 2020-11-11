@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<?php require'../return.php'; ?>
   <form method="post">
     <h5>Retorno de Soma</h5>
     <hr class="dividir" />
